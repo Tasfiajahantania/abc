@@ -1,0 +1,22 @@
+.list-container{
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+.btn-container{
+    background-color: white;
+    padding: 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.btn-style{
+    margin-right: 13px;
+    padding: 7px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: blueviolet;
+    color: #ffffff;
+}

@@ -1,0 +1,13 @@
+.header{
+    margin: 50px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 80px;
+    width: 70px;
+}
+.header h1{
+    color: blueviolet;
+}
