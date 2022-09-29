@@ -6,7 +6,7 @@ import './Activities.css'
 
 const Activities = () => {
     const [works, setWorks] = useState([]);
-    const [list,setList]=useState()
+    const [list, setList] = useState([])
 
     useEffect(() => {
         fetch('activities.json')
@@ -14,7 +14,7 @@ const Activities = () => {
             .then(data => setWorks(data));
     }, []);
     const handleAddToList = (work) => {
-        console.log(work);
+        // console.log(work);
         const newList = [...list, work];
         setList(newList);
     }
@@ -34,7 +34,7 @@ const Activities = () => {
             </div>
            </div>
             <div className="list-container">
-           <List></List>
+           <List list={list}></List>
             </div>
         </div>
     );
